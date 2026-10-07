@@ -25,16 +25,11 @@ modules:
     install:
       packages:
         - wallpaper-engine-kde-plugin-qt6
-
-  - type: dnf
-    install:
-      - virt-install
-      - libvirt-daemon-config-network
-      - libvirt-daemon-kvm
-      - qemu-kvm
-      - virt-manager
-      - virt-viewer
-      - virt-top
+        - edk2-ovmf
+    group-install:
+      with-optional: true
+      packages:
+        - virtualization
 
   - type: systemd
     system:
