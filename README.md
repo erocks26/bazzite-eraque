@@ -6,6 +6,7 @@ Hi! I'm Ethan and this is the custom image I maintain for my personal computer. 
 
 - Bazzite core
 - Wallpaper Engine KDE Plugin built in
+- Virtualization (QEMU + KVM + libvirt) available
 
 ## Verification
 
