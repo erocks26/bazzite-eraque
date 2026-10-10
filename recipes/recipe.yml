@@ -27,6 +27,7 @@ modules:
         - wallpaper-engine-kde-plugin-qt6
         - edk2-ovmf
         - kvantum
+        - materia-kde
     group-install:
       with-optional: true
       packages:
